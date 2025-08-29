@@ -566,6 +566,8 @@ body {
     justify-content: center !important;
     white-space: nowrap !important;
     font-size: 0.9rem !important;
+    position: relative !important;
+    left: 40% !important;
 }
 
 .logo-btn:hover {
