@@ -550,6 +550,30 @@ body {
     background: linear-gradient(180deg, var(--secondary-color), transparent);
 }
 
+/* Logo Button */
+.logo-btn {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+    border: none !important;
+    color: white !important;
+    padding: 0.75rem 1.5rem !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: var(--shadow) !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    white-space: nowrap !important;
+    font-size: 0.9rem !important;
+}
+
+.logo-btn:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: var(--shadow-md) !important;
+    color: white !important;
+}
+
 /* Hide navigation arrows */
 .swiper-button-next,
 .swiper-button-prev {
